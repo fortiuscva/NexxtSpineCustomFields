@@ -64,24 +64,6 @@ pageextension 50100 ItemsCardEx extends "Item Card"
                 ApplicationArea = All;
 
             }
-
-            field("IMP Product Family"; rec."IMP Product Family")
-            {
-                ApplicationArea = All;
-
-            }
-
-            field("IMP Product Details"; rec."IMP Product Details")
-            {
-                ApplicationArea = All;
-
-            }
-
-            field("IMP Product Type"; rec."IMP Product Type")
-            {
-                ApplicationArea = All;
-
-            }
         }
     }
 
