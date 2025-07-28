@@ -23,12 +23,6 @@ pageextension 50100 ItemsCardEx extends "Item Card"
 
             }
 
-            field("IMP Material"; rec."IMP Material")
-            {
-                ApplicationArea = All;
-
-            }
-
             field("IMP System Name"; rec."IMP System Name")
             {
                 ApplicationArea = All;

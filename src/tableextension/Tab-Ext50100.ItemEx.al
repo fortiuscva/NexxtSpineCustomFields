@@ -24,12 +24,6 @@ tableextension 50100 ItemEx extends Item
             TableRelation = "IMP Height/Depth";
         }
 
-        field(50103; "IMP Material"; Code[20])
-        {
-            DataClassification = ToBeClassified;
-            Caption = 'Material';
-            TableRelation = "IMP Material";
-        }
 
         field(50104; "IMP System Name"; Code[20])
         {
