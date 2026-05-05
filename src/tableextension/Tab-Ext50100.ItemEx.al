@@ -10,7 +10,7 @@ tableextension 50100 ItemEx extends Item
             TableRelation = "IMP Rev Level";
         }
 
-        field(50101; "IMP Drawing Number"; Code[20])
+        field(50101; "IMP Drawing Number"; Code[50])
         {
             DataClassification = ToBeClassified;
             caption = 'Drawing Number';

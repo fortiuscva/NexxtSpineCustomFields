@@ -6,14 +6,14 @@ table 50101 "IMP Drawing Number"
 
     fields
     {
-        field(1; "IMP Code"; Code[20])
+        field(1; "IMP Code"; Code[50])
         {
             DataClassification = ToBeClassified;
             Caption = 'Code';
 
         }
 
-        field(2; "IMP Description"; Text[50])
+        field(2; "IMP Description"; Text[100])
         {
             DataClassification = ToBeClassified;
             Caption = 'Description';
