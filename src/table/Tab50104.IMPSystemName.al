@@ -13,7 +13,7 @@ table 50104 "IMP System Name"
 
         }
 
-        field(2; "IMP Description"; Text[50])
+        field(2; "IMP Description"; Text[100])
         {
             DataClassification = ToBeClassified;
             Caption = 'Description';
